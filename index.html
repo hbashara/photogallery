@@ -1,73 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content ="IE=edge">
-    <meta name="viewport" content="width=1320px">
-    <title>test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" />
+    <title>Photo Gallery</title>
 </head>
 
 <body>
-TK Photography
-About
-Gallery
-Contact
-^ top
-About
-TK.png
 
-Hello! 
-I’m TK and I’m a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it’s taken me all over the world. 
-Gallery
-Here are some highlights of my work. 
-The locations and year are in the caption. 
+    <header>
+        <h1>TK Photography</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#top">^ top</a></li>
+            </ul>
+        </nav>
+    </header>
 
-Chile.png
-Chile, 2001
+    <main>
 
-Guatemala.png
-Guatemala, 1997
+        <section id="about">
+            <h2>About</h2>
+            <img src="images/TK.png" alt="TK Photopgraphy" width="850px" height="auto">
+            <p>
+                Hello! <br>
+                I’m TK and I’m a photographer. <br>
+                I love looking at life through the lens of my camera. Landscape
+                photography is my speciality and it’s taken me all over the world.
+            </p>
+        </section>
 
-Hawaii.png
-Hawaii, 2010
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <p>Here are some highlights of my work.
+                The locations and year are in the caption.</p>
+            <section>
+                <figure>
+                    <img src="images/Chile.png" alt="Chile" width="420px" height="281px">
+                    <figcaption>Chile, 2001</figcaption>
+                </figure>
 
-Iran.png
-Iran, 1999
+                <figure>
+                    <img src="images/Guatemala.png" alt="Guatemala" width="420px" height="281px">
+                    <figcaption>Guatemala, 1997</figcaption>
+                </figure>
 
-Ireland.png
-Ireland, 2012
+                <figure>
+                    <img src="images/Hawaii.png" alt="Hawaii" width="420px" height="281px">
+                    <figcaption>Hawaii, 2010</figcaption>
+                </figure>
 
-Italy.png
-Italy, 2015
+                <figure>
+                    <img src="images/Iran.png" alt="Iran" width="420px" height="630px">
+                    <figcaption>Iran, 1999</figcaption>
+                </figure>
 
-Moab-Desert.png
-Moab Desert, 2020
+                <figure>
+                    <img src="images/Ireland.png" alt="Ireland" width="420px" height="630px">
+                    <figcaption>Ireland, 2012</figcaption>
+                </figure>
 
-Rocky-Mountains.png
-Rocky Mountains, 2009
+                <figure>
+                    <img src="images/Italy.png" alt="Italy" width="420px" height="630px">
+                    <figcaption>Italy, 2015</figcaption>
+                </figure>
 
-Switzerland.png
-Switzerland, 2014
+                <figure>
+                    <img src="images/Moab-Desert.png" alt="Moab-Desert" width="420px" height="281px">
+                    <figcaption>Moab Desert, 2020</figcaption>
+                </figure>
 
-UK.png
-UK, 2005
+                <figure>
+                    <img src="images/Rocky-Mountains.png" alt="Rocky-Mountains" width="420px" height="281px">
+                    <figcaption>Rocky Mountains, 2009</figcaption>
+                </figure>
 
-USA.png
-USA, 2021
+                <figure>
+                    <img src="images/Switzerland.png" alt="Switzerland" width="420px" height="281px">
+                    <figcaption>Switzerland, 2014</figcaption>
+                </figure>
 
-Wyoming.png
-Wyoming, 2021
-Contact
-Please fill out this form and I’ll connect with you soon.
+                <figure>
+                    <img src="images/UK.png" alt="UK" width="420px" height="281px">
+                    <figcaption>UK, 2005</figcaption>
+                </figure>
 
-Your contact information
-Name (Your full name)
-Email (Enter your email address)
-Message (What can I help you with?)
-Submit
+                <figure>
+                    <img src="images/USA.png" alt="USA" width="420px" height="281px">
+                    <figcaption>USA, 2021</figcaption>
+                </figure>
 
-Copyright 2021 TK Photography
+                <figure>
+                    <img src="images/Wyoming.png" alt="Wyoming" width="420px" height="281px">
+                    <figcaption>Wyoming, 2021</figcaption>
+                </figure>
+            </section>
+        </section>
 
+    </main>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Please fill out this form and I’ll connect with you soon.</p>
+
+        <form action="" method="">
+            Your contact information <br>
+            <label for="name">Name</label> <br>
+            <input id="name" name="name" type="text" required placeholder="(Your full name)"> <br>
+            <label for="email">Email</label> <br>
+            <input id="email" name="email" type="email" required placeholder="(Enter your email address)"> <br>
+            <label for="text">Message</label> <br>
+            <input id="text" name="message" type="text" required placeholder="(What can I help you with?)"> <br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <small>Copyright 2021 TK Photography</small>
+    </footer>
 
 </body>
+
 </html>
