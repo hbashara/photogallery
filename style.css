@@ -201,7 +201,8 @@ footer {
 #contact,
 #contact h2,
 #contact p,
-form button {
+form button,
+footer {
     color: #FFFFFF;
 }
 
@@ -210,12 +211,15 @@ form button {
 
 form label {
     font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 input {
     margin-top: 5px;
     margin-bottom: 5px;
-    width: 800px;
+    width: 750px;
+    height: 25px;
     padding: 5px;
 }
 
@@ -230,7 +234,6 @@ form button {
     padding: 10px;
     padding-left: 100px;
     padding-right: 100px;
-    /* FIX */
     margin: auto;
     display: block;
 }
